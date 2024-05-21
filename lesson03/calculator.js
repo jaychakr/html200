@@ -1,0 +1,12 @@
+let a = 1;
+let b = 2;
+let c = 3;
+let d = 4;
+console.log(a + b);
+console.log(c - d);
+console.log(a * c);
+console.log(b / d);
+console.log(a % d);
+console.log(b ** c);
+console.log(a++);
+console.log(b--);
