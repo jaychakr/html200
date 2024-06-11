@@ -21,6 +21,7 @@ function application() {
                 let amountToDeposit = Number(prompt('Enter amount to deposit:'));
                 if (balance + amountToDeposit > 50000) {
                     alert('Balance exceeds deposit cap of $50,000');
+                    break;
                 }
                 balance += amountToDeposit;
                 break;
