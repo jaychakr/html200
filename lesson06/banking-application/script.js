@@ -7,7 +7,7 @@ function application() {
             case 'W':
                 let amountToWithdraw = Number(prompt('Enter amount to withdraw'));
                 if (balance - amountToWithdraw < 0) {
-                    alert('Excessive withdrawal exceeds available balance!');
+                    alert('Withdrawal exceeds available balance!');
                     break;
                 } else if (balance - amountToWithdraw < 300) {
                     let confirmation = prompt('Withdrawal will leave you with less than $300, do you wish to proceed?\nEnter Y/N');
